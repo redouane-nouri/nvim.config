@@ -1,3 +1,10 @@
+## Interface
+
+| Option | Value | Description |
+|---|---|---|
+| `number` | enabled | Shows absolute line number on current line |
+| `relativenumber` | enabled | Shows relative line numbers for fast jumps |
+
 ## Keybindings
 
 | Shortcut | Mode | Action |
