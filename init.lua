@@ -6,3 +6,6 @@ vim.keymap.set({'n', 'i'}, '<C-n>', '<End>',         { desc = 'Move to end of li
 vim.keymap.set({'n', 'i'}, '<C-b>', '<Home>',        { desc = 'Move to start of line' })
 vim.keymap.set({'n', 'i'}, '<C-s>', '<cmd>w<cr>',    { desc = 'Save file' })
 vim.keymap.set('n', '<C-c>', '<cmd>%y+<cr>', { desc = 'Copy file content to clipboard' })
+
+vim.opt.number = true
+vim.opt.relativenumber = true
