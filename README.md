@@ -1,9 +1,10 @@
-## Interface
+## Options
 
 | Option | Value | Description |
 |---|---|---|
 | `number` | enabled | Shows absolute line number on current line |
 | `relativenumber` | enabled | Shows relative line numbers for fast jumps |
+| `clipboard` | `unnamed,unnamedplus` | Syncs yank/paste with both * and + system clipboards |
 
 ## Keybindings
 
