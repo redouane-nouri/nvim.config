@@ -23,6 +23,11 @@ vim.g.maplocalleader = "\\"
 
 require("lazy").setup({
   spec = {   
+   {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    config = true
+   }
   },
   checker = { enabled = true },
 })
