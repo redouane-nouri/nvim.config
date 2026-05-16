@@ -1,3 +1,11 @@
+## Plugins
+
+Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
+
+| Plugin | Description |
+|---|---|
+| — | no plugins yet |
+
 ## Options
 
 | Option | Value | Description |
