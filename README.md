@@ -4,7 +4,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 
 | Plugin | Description |
 |---|---|
-| — | no plugins yet |
+| [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | Auto closes paired characters like brackets and quotes |
 
 ## Options
 
