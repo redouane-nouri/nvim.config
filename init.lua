@@ -44,3 +44,6 @@ vim.keymap.set('n', '<C-c>', '<cmd>%y+<cr>', { desc = 'Copy file content to clip
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.clipboard = "unnamed,unnamedplus"
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
