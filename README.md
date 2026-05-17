@@ -13,6 +13,9 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `number` | enabled | Shows absolute line number on current line |
 | `relativenumber` | enabled | Shows relative line numbers for fast jumps |
 | `clipboard` | `unnamed,unnamedplus` | Syncs yank/paste with both * and + system clipboards |
+| `tabstop` | `2` | Number of spaces a tab character looks like |
+| `shiftwidth` | `2` | Number of spaces added on indent |
+| `expandtab` | enabled | Use spaces instead of tab characters |
 
 ## Keybindings
 
