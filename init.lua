@@ -1,3 +1,7 @@
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+vim.opt.termguicolors = true
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -26,11 +30,30 @@ require("lazy").setup({
    {
     'windwp/nvim-autopairs',
     event = "InsertEnter",
-    config = true
-   }
+    config = true,
+    version = "*",
+   },
+   {
+    'nvim-tree/nvim-tree.lua',
+    version = "*",
+    dependencies = { {'nvim-tree/nvim-web-devicons', version = "*"} },
+    opts = {
+     sort = {
+        sorter = "case_sensitive",
+      },
+      view = {
+         width = 30,
+       },
+       renderer = {
+         group_empty = true,
+       },
+     },
+   },
   },
   checker = { enabled = true },
 })
+
+vim.keymap.set({'n', 'i'}, '<C-f>', '<cmd>NvimTreeToggle<cr>', { desc = 'Toggle file tree' })
 
 vim.keymap.set({'n', 'i'}, '<C-h>', '<Left>',        { desc = 'Move left' })
 vim.keymap.set({'n', 'i'}, '<C-j>', '<Down>',        { desc = 'Move down' })
