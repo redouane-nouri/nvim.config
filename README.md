@@ -5,6 +5,8 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | Plugin | Description |
 |---|---|
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | Auto closes paired characters like brackets and quotes |
+| [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) | File explorer tree |
+| [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | File icons for nvim-tree (used by nvim-tree) |
 
 ## Options
 
@@ -28,3 +30,5 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `Ctrl + b` | Normal / Insert | Move to beginning of line |
 | `Ctrl + n` | Normal / Insert | Move to end of line |
 | `Ctrl + s` | Normal / Insert | Save file |
+| `Ctrl + f` | Normal / Insert | Toggle file tree |
+| `Ctrl + c` | Normal | Copy file content to clipboard |
