@@ -7,3 +7,5 @@ vim.keymap.set({'n', 'i'}, '<C-b>', '<Home>',        { desc = 'Move to start of 
 vim.keymap.set({'n', 'i'}, '<C-s>', '<cmd>w<cr>',    { desc = 'Save file' })
 vim.keymap.set({'n', 'i'}, '<C-f>', '<cmd>NvimTreeToggle<cr>', { desc = 'Toggle file tree' })
 vim.keymap.set('n', '<C-c>', '<cmd>%y+<cr>', { desc = 'Copy file content to clipboard' })
+vim.keymap.set('n', '<Tab>', '<C-w>w', { desc = 'Cycle windows' })
+
