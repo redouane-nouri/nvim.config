@@ -18,6 +18,11 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `tabstop` | `2` | Number of spaces a tab character looks like |
 | `shiftwidth` | `2` | Number of spaces added on indent |
 | `expandtab` | enabled | Use spaces instead of tab characters |
+| `loaded_netrw` | disabled | Disables built-in netrw file explorer |
+| `loaded_netrwPlugin` | disabled | Disables netrw plugin |
+| `termguicolors` | enabled | Enables 24-bit RGB colors |
+| `mapleader` | `Space` | Leader key prefix for custom shortcuts |
+| `maplocalleader` | `\` | Local leader key for filetype specific shortcuts |
 
 ## Keybindings
 
@@ -32,3 +37,9 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `Ctrl + s` | Normal / Insert | Save file |
 | `Ctrl + f` | Normal / Insert | Toggle file tree |
 | `Ctrl + c` | Normal | Copy file content to clipboard |
+| `Tab` | Normal | Cycle between windows |
+
+## Plugin Custom Mappings
+| Plugin | Key | Action |
+|---|---|---|
+| nvim-tree | `P` | Preview file (Tab is reserved for window cycling) |
