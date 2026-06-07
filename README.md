@@ -7,6 +7,9 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | Auto closes paired characters like brackets and quotes |
 | [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) | File explorer tree |
 | [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | File icons for nvim-tree (used by nvim-tree) |
+| [mason.nvim](https://github.com/mason-org/mason.nvim) | LSP/linter/formatter package manager |
+| [mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) | Bridges mason.nvim with nvim-lspconfig |
+| [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | Configs for Neovim's built-in LSP client |
 
 ## Options
 
@@ -43,3 +46,8 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | Plugin | Key | Action |
 |---|---|---|
 | nvim-tree | `P` | Preview file (Tab is reserved for window cycling) |
+
+## Insure Installed LSPs
+| Language | Server |
+|---|---|
+| C / C++ | `clangd` |
