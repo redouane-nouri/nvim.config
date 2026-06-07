@@ -23,7 +23,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `termguicolors` | enabled | Enables 24-bit RGB colors |
 | `mapleader` | `Space` | Leader key prefix for custom shortcuts |
 | `maplocalleader` | `\` | Local leader key for filetype specific shortcuts |
-
+| `diagnostic.virtual_lines` | enabled | Shows diagnostics inline using virtual lines |
 ## Keybindings
 
 | Shortcut | Mode | Action |
