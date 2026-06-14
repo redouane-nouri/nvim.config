@@ -12,6 +12,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | Configs for Neovim's built-in LSP client |
 | [conform.nvim](https://github.com/stevearc/conform.nvim) | Auto formats files on save |
 | [mason-tool-installer.nvim](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim) | Auto installs and updates Mason tools on startup |
+| [blink.cmp](https://github.com/Saghen/blink.cmp) | Auto completion engine for LSP, paths, and buffer words |
 
 
 ## Options
@@ -52,7 +53,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 |---|---|---|
 | nvim-tree | `P` | Preview file (Tab is reserved for window cycling) |
 
-## Mason Config for pre-install tools
+## Mason Config for Pre-install Tools
 
 ### LSPs with mason-lspconfig.nvim
 
