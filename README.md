@@ -10,6 +10,9 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | [mason.nvim](https://github.com/mason-org/mason.nvim) | LSP/linter/formatter package manager |
 | [mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) | Bridges mason.nvim with nvim-lspconfig |
 | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | Configs for Neovim's built-in LSP client |
+| [conform.nvim](https://github.com/stevearc/conform.nvim) | Auto formats files on save |
+| [mason-tool-installer.nvim](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim) | Auto installs and updates Mason tools on startup |
+
 
 ## Options
 
@@ -27,6 +30,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `mapleader` | `Space` | Leader key prefix for custom shortcuts |
 | `maplocalleader` | `\` | Local leader key for filetype specific shortcuts |
 | `diagnostic.virtual_lines` | enabled | Shows diagnostics inline using virtual lines |
+
 ## Keybindings
 
 | Shortcut | Mode | Action |
@@ -43,11 +47,25 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `Tab` | Normal | Cycle between windows |
 
 ## Plugin Custom Mappings
+
 | Plugin | Key | Action |
 |---|---|---|
 | nvim-tree | `P` | Preview file (Tab is reserved for window cycling) |
 
-## Insure Installed LSPs
+## Mason Config for pre-install tools
+
+### LSPs with mason-lspconfig.nvim
+
 | Language | Server |
 |---|---|
-| C / C++ | `clangd` |
+| C/C++ | `clangd` |
+| Lua | `lua-language-server` |
+| TypeScript/JavaScript | `ts_ls` |
+
+### Formatters with mason-tool-installer.nvim
+
+| Language | Formatter |
+|---|---|
+| C/C++ | `clang-format` |
+| Lua | `stylua` |
+| JavaScript/TypeScript | `prettier` |
