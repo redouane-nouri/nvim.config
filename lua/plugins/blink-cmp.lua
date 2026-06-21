@@ -3,11 +3,12 @@ return {
 		"saghen/blink.cmp",
 		version = "^1",
 		opts = {
-			keymap = { preset = "default" },
+			keymap = { preset = "none" },
 			appearance = {
 				nerd_font_variant = "normal",
 			},
 			completion = { documentation = { auto_show = false } },
+			signature = { enabled = true },
 			sources = {
 				default = { "lsp", "path", "buffer" },
 			},
