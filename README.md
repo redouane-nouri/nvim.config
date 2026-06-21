@@ -43,7 +43,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `Ctrl + b` | Normal / Insert | Move to beginning of line |
 | `Ctrl + n` | Normal / Insert | Move to end of line |
 | `Ctrl + s` | Normal / Insert | Save file |
-| `Ctrl + f` | Normal / Insert | Toggle file tree |
+| `Ctrl + e` | Normal / Insert | Toggle file tree |
 | `Ctrl + c` | Normal | Copy file content to clipboard |
 | `Tab` | Normal | Cycle between windows |
 
