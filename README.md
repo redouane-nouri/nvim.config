@@ -6,13 +6,16 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 |---|---|
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | Auto closes paired characters like brackets and quotes |
 | [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) | File explorer tree |
-| [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | File icons for nvim-tree (used by nvim-tree) |
+| [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | File icons by Nvim-tree and Telescope  |
 | [mason.nvim](https://github.com/mason-org/mason.nvim) | LSP/linter/formatter package manager |
 | [mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) | Bridges mason.nvim with nvim-lspconfig |
 | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | Configs for Neovim's built-in LSP client |
 | [conform.nvim](https://github.com/stevearc/conform.nvim) | Auto formats files on save |
 | [mason-tool-installer.nvim](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim) | Auto installs and updates Mason tools on startup |
 | [blink.cmp](https://github.com/Saghen/blink.cmp) | Auto completion engine for LSP, paths, and buffer words |
+| [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | Fuzzy finder |
+| [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) | Lua utility library used by Telescope |
+| [telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | Native FZF sorter for Telescope, improves sorting performance |
 
 
 ## Options
@@ -36,6 +39,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 
 | Shortcut | Mode | Action |
 |---|---|---|
+| `Tab` | Normal | Cycle between windows |
 | `Ctrl + h` | Normal / Insert | Move left |
 | `Ctrl + j` | Normal / Insert | Move down |
 | `Ctrl + k` | Normal / Insert | Move up |
@@ -45,7 +49,10 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `Ctrl + s` | Normal / Insert | Save file |
 | `Ctrl + e` | Normal / Insert | Toggle file tree |
 | `Ctrl + c` | Normal | Copy file content to clipboard |
-| `Tab` | Normal | Cycle between windows |
+| `Ctrl + f + f` | Normal | Find files |
+| `Ctrl + f + g` | Normal | Live grep |
+| `Ctrl + f + b` | Normal | Browse buffers |
+| `Ctrl + f + h` | Normal | Search help tags |
 
 ## Plugin Custom Mappings
 
