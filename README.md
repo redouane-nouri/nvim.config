@@ -59,6 +59,8 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | Plugin | Key | Action |
 |---|---|---|
 | nvim-tree | `P` | Preview file (Tab is reserved for window cycling) |
+| telescope | `Ctrl + k` | Move selection up in picker |
+| telescope | `Ctrl + j` | Move selection down in picker |
 
 ## Mason Config for Pre-install Tools
 
