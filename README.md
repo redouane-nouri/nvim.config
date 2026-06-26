@@ -16,7 +16,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | Fuzzy finder |
 | [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) | Lua utility library used by Telescope |
 | [telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | Native FZF sorter for Telescope, improves sorting performance |
-
+| [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Installs and manages treesitter parsers for syntax highlighting and folding |
 
 ## Options
 
@@ -56,6 +56,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `Ctrl + f + g` | Normal | Live grep |
 | `Ctrl + f + b` | Normal | Browse buffers |
 | `Ctrl + f + h` | Normal | Search help tags |
+| `Enter` | Normal | Toggle fold |
 
 ## Plugin Custom Mappings
 
@@ -65,7 +66,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | telescope | `Ctrl + k` | Move selection up in picker |
 | telescope | `Ctrl + j` | Move selection down in picker |
 
-## Mason Config for Pre-install Tools
+## Auto-installed
 
 ### LSPs with mason-lspconfig.nvim
 
@@ -82,3 +83,18 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | C/C++ | `clang-format` |
 | Lua | `stylua` |
 | JavaScript/TypeScript | `prettier` |
+
+### Persers with treesitter
+
+| Language | Parser |
+|---|---|
+| C | `c` |
+| C++ | `cpp` |
+| TypeScript | `typescript` |
+| JavaScript | `javascript` |
+| Lua | `lua` |
+| Markdown | `markdown` |
+| Markdown Inline | `markdown_inline` |
+| Query | `query` |
+| Vim | `vim` |
+| Vimdoc | `vimdoc` |
