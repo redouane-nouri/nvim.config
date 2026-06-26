@@ -10,5 +10,7 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.diagnostic.config({
-  virtual_lines = true,
+	virtual_lines = true,
 })
+vim.opt.fillchars:append({ eob = " ", vert = " " })
+vim.opt.whichwrap:append("h,l,<,>,[,]")
