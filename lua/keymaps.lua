@@ -12,3 +12,4 @@ vim.keymap.set("n", "<C-f>f", "<cmd>Telescope find_files<cr>", { desc = "Telesco
 vim.keymap.set("n", "<C-f>g", "<cmd>Telescope live_grep<cr>", { desc = "Telescope live grep" })
 vim.keymap.set("n", "<C-f>b", "<cmd>Telescope buffers<cr>", { desc = "Telescope buffers" })
 vim.keymap.set("n", "<C-f>h", "<cmd>Telescope help_tags<cr>", { desc = "Telescope help tags" })
+vim.keymap.set("n", "<CR>", "za", { desc = "Toggle fold" })
