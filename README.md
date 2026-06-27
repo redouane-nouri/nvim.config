@@ -17,6 +17,13 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) | Lua utility library used by Telescope |
 | [telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | Native FZF sorter for Telescope, improves sorting performance |
 | [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Installs and manages treesitter parsers for syntax highlighting and folding |
+| [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) | Statusline plugin |
+
+### Themes
+
+| Plugin | Description |
+|---|---|
+| [nord.nvim](https://github.com/gbprod/nord.nvim) | Nord colorscheme |
 
 ## Options
 
@@ -37,6 +44,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `fillchars.eob` | ` ` (space) | Hides the `~` characters on empty lines after end of buffer |
 | `fillchars.vert` | ` ` (space) | Makes the vertical window separator invisible |
 | `whichwrap` | `h,l,<,>,[,]` | Allows `h`/`l` and arrow keys to wrap across lines |
+| `foldlevelstart` | `99` | Opens all folds by default when opening a file |
 
 ## Keybindings
 
