@@ -14,3 +14,4 @@ vim.diagnostic.config({
 })
 vim.opt.fillchars:append({ eob = " ", vert = " " })
 vim.opt.whichwrap:append("h,l,<,>,[,]")
+vim.opt.foldlevelstart = 99
