@@ -25,6 +25,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | Plugin | Description |
 |---|---|
 | [nord.nvim](https://github.com/gbprod/nord.nvim) | Nord colorscheme |
+| [catppuccin](https://github.com/catppuccin/nvim) | Catppuccin colorscheme |
 
 ## Options
 
