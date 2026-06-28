@@ -18,6 +18,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | [telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | Native FZF sorter for Telescope, improves sorting performance |
 | [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Installs and manages treesitter parsers for syntax highlighting and folding |
 | [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) | Statusline plugin |
+| [undotree](https://github.com/mbbill/undotree) | Visualizes the undo history as a tree |
 
 ### Themes
 
@@ -58,21 +59,23 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `Ctrl + b` | Normal / Insert | Move to beginning of line |
 | `Ctrl + n` | Normal / Insert | Move to end of line |
 | `Ctrl + s` | Normal / Insert | Save file |
-| `Ctrl + e` | Normal / Insert | Toggle file tree |
 | `Ctrl + c` | Normal | Copy file content to clipboard |
-| `Ctrl + f + f` | Normal | Find files |
-| `Ctrl + f + g` | Normal | Live grep |
-| `Ctrl + f + b` | Normal | Browse buffers |
-| `Ctrl + f + h` | Normal | Search help tags |
 | `Enter` | Normal | Toggle fold |
 
 ## Plugin Custom Mappings
 
-| Plugin | Key | Action |
-|---|---|---|
-| nvim-tree | `P` | Preview file (Tab is reserved for window cycling) |
-| telescope | `Ctrl + k` | Move selection up in picker |
-| telescope | `Ctrl + j` | Move selection down in picker |
+| Plugin | Key | Mode | Action |
+|---|---|---|---|
+| nvim-tree | `P` | Normal | Preview file (Tab is reserved for window cycling) |
+| undotree | `P` | Normal | Focus back to editor (Tab is reserved for window cycling) |
+| undotree | `Ctrl + u` | Normal | Toggle undotree panel |
+| telescope | `Ctrl + k` | Insert | Move selection up in picker |
+| telescope | `Ctrl + j` | Insert | Move selection down in picker |
+| telescope | `Ctrl + f + f` | Normal | Find files |
+| telescope | `Ctrl + f + g` | Normal | Live grep |
+| telescope | `Ctrl + f + b` | Normal | Browse buffers |
+| telescope | `Ctrl + f + h` | Normal | Search help tags |
+| nvim-tree | `Ctrl + e` | Normal / Insert | Toggle file tree |
 
 ## Auto-installed
 
