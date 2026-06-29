@@ -43,8 +43,8 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `mapleader` | `Space` | Leader key prefix for custom shortcuts |
 | `maplocalleader` | `\` | Local leader key for filetype specific shortcuts |
 | `diagnostic.virtual_lines` | enabled | Shows diagnostics inline using virtual lines |
-| `fillchars.eob` | ` ` (space) | Hides the `~` characters on empty lines after end of buffer |
-| `fillchars.vert` | ` ` (space) | Makes the vertical window separator invisible |
+| `fillchars.eob` | `Space` | Hides the `~` characters on empty lines after end of buffer |
+| `fillchars.vert` | `Space` | Makes the vertical window separator invisible |
 | `whichwrap` | `h,l,<,>,[,]` | Allows `h`/`l` and arrow keys to wrap across lines |
 | `foldlevelstart` | `99` | Opens all folds by default when opening a file |
 
@@ -77,6 +77,9 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | telescope | `Ctrl + f + b` | Normal | Browse buffers |
 | telescope | `Ctrl + f + h` | Normal | Search help tags |
 | nvim-tree | `Ctrl + e` | Normal / Insert | Toggle file tree |
+| blink.cmp | `Enter` | Insert | Accept completion |
+| blink.cmp | `Ctrl + f` | Insert | Select next completion item |
+| blink.cmp | `Ctrl + d` | Insert | Select previous completion item |
 
 ## Auto-installed
 
