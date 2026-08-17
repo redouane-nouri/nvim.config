@@ -89,7 +89,16 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 |---|---|
 | C/C++ | `clangd` |
 | Lua | `lua-language-server` |
-| TypeScript/JavaScript | `ts_ls` |
+| TypeScript/JavaScript | `vtsls` |
+| HTML | `html` |
+| CSS | `cssls` |
+| Tailwind CSS | `tailwindcss` |
+| JSON | `jsonls` |
+| Dockerfile | `dockerls` |
+| Docker Compose | `docker_compose_language_service` |
+| Bash | `bashls` |
+| YAML | `yamlls` |
+| Nginx | `nginx_language_server` |
 
 ### Formatters with mason-tool-installer.nvim
 
