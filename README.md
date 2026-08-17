@@ -19,6 +19,8 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Installs and manages treesitter parsers for syntax highlighting and folding |
 | [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) | Statusline plugin |
 | [undotree](https://github.com/mbbill/undotree) | Visualizes the undo history as a tree |
+| [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | Git integration with signs, inline changes, and hunk actions |
+| [mini.indentscope](https://github.com/echasnovski/mini.indentscope) | Shows the current indentation scope |
 
 ### Themes
 
@@ -47,6 +49,8 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | `fillchars.vert` | `Space` | Makes the vertical window separator invisible |
 | `whichwrap` | `h,l,<,>,[,]` | Allows `h`/`l` and arrow keys to wrap across lines |
 | `foldlevelstart` | `99` | Opens all folds by default when opening a file |
+| `ignorecase` | enabled | Makes search patterns case-insensitive |
+| `smartcase` | enabled | Makes searches case-sensitive when the pattern contains uppercase letters |
 
 ## Keybindings
 
@@ -80,6 +84,7 @@ Plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim).
 | blink.cmp | `Enter` | Insert | Accept completion |
 | blink.cmp | `Ctrl + f` | Insert | Select next completion item |
 | blink.cmp | `Ctrl + d` | Insert | Select previous completion item |
+| gitsigns.nvim | `Ctrl + p` | Normal | Preview Git hunk inline |
 
 ## Auto-installed
 

@@ -13,3 +13,4 @@ vim.keymap.set("n", "<C-f>g", "<cmd>Telescope live_grep<cr>", { desc = "Telescop
 vim.keymap.set("n", "<C-f>b", "<cmd>Telescope buffers<cr>", { desc = "Telescope buffers" })
 vim.keymap.set("n", "<C-f>h", "<cmd>Telescope help_tags<cr>", { desc = "Telescope help tags" })
 vim.keymap.set("n", "<CR>", "za", { desc = "Toggle fold" })
+vim.keymap.set("n", "<C-p>", "<cmd>Gitsigns preview_hunk_inline<cr>", { desc = "Preview Git hunk inline" })
