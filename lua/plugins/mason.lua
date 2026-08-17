@@ -3,7 +3,20 @@ return {
 		"mason-org/mason-lspconfig.nvim",
 		version = "^2",
 		opts = {
-			ensure_installed = { "clangd", "lua_ls", "ts_ls" },
+			ensure_installed = {
+				"clangd",
+				"lua_ls",
+				"vtsls",
+				"html",
+				"cssls",
+				"jsonls",
+				"tailwindcss",
+				"dockerls",
+				"docker_compose_language_service",
+				"bashls",
+				"yamlls",
+				"nginx_language_server",
+			},
 		},
 		dependencies = {
 			{ "mason-org/mason.nvim", version = "^2", config = true },
