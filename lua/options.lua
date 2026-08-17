@@ -15,3 +15,5 @@ vim.diagnostic.config({
 vim.opt.fillchars:append({ eob = " ", vert = " " })
 vim.opt.whichwrap:append("h,l,<,>,[,]")
 vim.opt.foldlevelstart = 99
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
